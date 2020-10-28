@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 h1{
     font-size: 20px;
     font-family: sans-serif;
@@ -7,12 +11,74 @@ h2{
     font-size: 16px;
     font-family: sans-serif;
     font-weight: bold;
-
-    font: bold 14px sans-serif
+    font: bold 14px sans-serif;
 }
 header,section,footer,aside,nav,article,hgroup{
     display: block;
 }
 body{
     text-align: center;
+}
+.agrupar {
+    border: 1px solid black;
+    width: 960px;
+   margin: 15px auto;
+}
+.cabezera{
+    background: #726464;
+    
+    padding: 20px;
+}
+.cabezera h1{
+    text-align: left;
+}
+.menu{
+    background: #E9846F;
+    padding:  5px 17px;    
+    text-align: left;
+}
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px sans-serif;
+    display: inline-block ;
+}
+.seccion{    
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+article{
+    background: grey;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+.columna{
+    width: 300px;
+    margin: 20px 0px;
+    float: left;
+}
+.columna blockquote{
+    border: 1px solid black;
+    padding: 40px;
+    background: greenyellow;
+    margin-bottom: 30px;
+}
+.pie{
+    clear: both;
+    background-color: #dd7777;
+    padding: 20px;
+    color: black;   
+}
+time{
+    color: black;
+}
+img{
+    width: 80px;
+    display: block;
+    margin:  20px auto;        
 }
